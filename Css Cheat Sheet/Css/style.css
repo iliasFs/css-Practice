@@ -15,6 +15,32 @@ body {
 
 
 }
+
+a{
+  text-decoration: none;
+  color:#000;
+
+
+}
+
+a:hover{
+
+  color:red;
+
+}
+
+a:active{
+
+  color:green;
+
+}
+
+/*a:visited{
+color:cyan;
+
+
+}
+*/
 .container{
 
   width: 80%;
@@ -27,12 +53,58 @@ body {
   color: #fff;
   border: 5px red solid;
   border-width: 10px;
-  padding: 50px;
-  margin: 40px;
+  padding: 20px;
+  margin: 20 0px;
 
 
+}
+
+.box-1 h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+font weight:200;
+font-style: oblique;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+word-spacing: 1em;
 
 
+}
+
+.box-2{
+
+  border:3px dotted #ccc;
+  padding:20px;
+  margin:20px 0;
+
+}
+
+.categories{
+
+  border: 5px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
 
 
+}
+
+.categories h2{
+
+  text-align: center;
+
+}
+
+.categories ul{
+
+  padding: 0;
+  list-style: square;
+  list-style: none;
+
+}
+
+.categories li{
+
+  padding: 5px;
+  border-bottom: dotted 1px;
 }
