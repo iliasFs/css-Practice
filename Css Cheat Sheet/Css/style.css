@@ -47,6 +47,24 @@ color:cyan;
   margin: auto;
 
 }
+
+.button{
+
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+
+
+}
+
+.button:hover{
+
+  background-color: red;
+  color: White;
+
+}
+
 .box-1{
 
   background-color: #333;
@@ -114,6 +132,10 @@ list-style-image: url('../images/checkmark.png');
 .my-form{
 
   padding: 20px;
+  border-style:solid;
+  border-color: #333;
+  margin: 10px;
+
 
 }
 
@@ -130,11 +152,10 @@ padding-bottom: 20px;
 
 }
 
-.my-form input [type="text"], .my-form textarea{
+.my-form input[type="text"], .my-form textarea{
 
   padding: 8px;
-  
-
+  width:20%;
 
 
 }
