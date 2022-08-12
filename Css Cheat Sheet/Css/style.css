@@ -83,7 +83,7 @@ word-spacing: 1em;
 .categories{
 
   border: 5px #ccc solid;
-  padding: 10px;
+  padding: 30px;
   border-radius: 15px;
 
 
@@ -104,7 +104,37 @@ word-spacing: 1em;
 }
 
 .categories li{
+  padding-bottom: 6px;
+  border-bottom:dotted 1px #333;
+list-style-image: url('../images/checkmark.png');
 
-  padding: 5px;
-  border-bottom: dotted 1px;
+
+}
+
+.my-form{
+
+  padding: 20px;
+
+}
+
+.my-form .form-group{
+
+padding-bottom: 20px;
+
+
+}
+
+.form-group label{
+
+  display: block;
+
+}
+
+.my-form input [type="text"], .my-form textarea{
+
+  padding: 8px;
+  
+
+
+
 }
