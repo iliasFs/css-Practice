@@ -65,6 +65,10 @@ color:cyan;
 
 }
 
+.clr{
+  clear: both;
+}
+
 .box-1{
 
   background-color: #333;
@@ -134,7 +138,9 @@ list-style-image: url('../images/checkmark.png');
   padding: 20px;
   border-style:solid;
   border-color: #333;
-  margin: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+
 
 
 }
@@ -156,6 +162,38 @@ padding-bottom: 20px;
 
   padding: 8px;
   width:20%;
+
+
+}
+
+.block {
+
+  float: left;
+  width: 33.3%;
+  border: 1px solid #fff;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+/* for id we use "#" */
+#main-block{
+
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+
+
+}
+
+#sidebar{
+
+  float: right;
+  width: 30%;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
 
 
 }
