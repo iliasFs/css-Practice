@@ -234,8 +234,31 @@ background-position: center center;
   position:fixed;
   top: 400px;
 
-  /*stays 400px from the top of the page*
-
-  /
+  /*stays 400px from the top of the page*/
 
 }
+
+.my-list li:first-child{
+  background-color: red;
+width:30%;
+
+}
+
+.my-list li:last-child{
+
+  background-color: blue;
+
+}
+
+.my-list li:nth-child(5){
+
+  color: green;
+  background-color: #888499;
+
+
+}
+
+.my-list li:nth-child(even){
+
+  color: green;
+  background-color: #558867;
