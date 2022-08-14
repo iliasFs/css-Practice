@@ -207,7 +207,9 @@ height: 500px;
 border: 1px solid #000;
 margin-top:30px;
 position: relative;
-
+background-image:url('../images/bgimage.jpg');
+background-repeat: no-repeat;
+background-position: center center;
 
 }
 
@@ -217,5 +219,23 @@ position: relative;
   top: 100px;
   right:200px;
 
+
+}
+
+.positioning-box h2{
+
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+
+}
+
+.fix-me{
+  position:fixed;
+  top: 400px;
+
+  /*stays 400px from the top of the page*
+
+  /
 
 }
